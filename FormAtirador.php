@@ -68,7 +68,7 @@
                    <label class="control-label" for="inputCity">Cidade:</label>
                    <div class="controls">
                        <select name="city">
-                           <option value='3'> </option>
+                           <option value=''> </option>
                            <?php
                                $resultado = mysqli_query($link, "Select * from cidade order by cidade;")
                                or die ("Não é possível consular cidade");
@@ -77,7 +77,7 @@
 
                                    $id_cidade = $linha["id_cidade"];
                                    $cidade = $linha["cidade"];
-                                   print("<option value='3'> $cidade </option>");
+                                   print("<option value='$id_cidade'> $cidade </option>");
                                }
                            ?>
                        </select>

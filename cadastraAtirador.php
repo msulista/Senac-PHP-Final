@@ -44,10 +44,10 @@
                 require("conecta.inc");
 
                 $link = conecta_bd() or die ("Não é possível conectar-se ao servidor");
-                $resultado = mysqli_query($link, "insert into competidor((nome, telefone, email, num_endereco) values('$nome', '$fone', '$email', '$num')")
+                $resultado = mysqli_query($link, "insert into competidor(nome, telefone, email, rua, cep, num_endereco, id_cidade)
+                                    values('$nome', '$fone', '$email', '$rua', '$cep', '$num', '$city')")
                 or die("Não é possível inserir competidor.");
                 echo("<br><h2>Competidor $nome inserido com sucesso.</h2>");
-
             }
             ?>
         </div>

@@ -23,6 +23,8 @@
     <div class="row-fluid">
         <div class="span2">
             <!--conteúdo da lateral-->
+
+            
         </div>
         <div class="span10">
             <!--conteúdo do corpo-->

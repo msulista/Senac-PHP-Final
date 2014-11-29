@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="pt">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.css" rel="stylesheet" media="screen">
     <title>Cadastro de atiradores</title>
@@ -50,7 +50,7 @@
                         <td><?PHP echo($email);?></td>
                         <td><?PHP echo($telefone);?></td>
                         <td><?PHP echo("<a href='alteraCompetidor.php?matri=$matri'>Alterar</a>");?></td>
-                        <td><?PHP echo("<a href='##?matri=$matri'>Deletar</a>");?></td>
+                        <td><?PHP echo("<a href='deletaCompetidor.php?matri=$matri'>Deletar</a>");?></td>
                     </tr>
                 <?PHP
                 }

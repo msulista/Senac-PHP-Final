@@ -21,19 +21,19 @@
             <h3>Trabalho de Programação para Internet I</h3>
             </br>
 
-
+            <p>
+                Este sistema trata de um um cadastro de competidores, competições e gerência a pontuação de compeonatos
+                da <a href="http://portal.fgct.com.br/">FGCT</a> (Federação Gaúcha de Caça e Tiro)<br>
+                por competidores, assim podemos conferir a tabela com a pontuação de cada competidor.
+            </p>
                 <h3>Integrantes:</h3>
                 <p>Abilio</p>
                 <p>Marcus Rodrigues</p>
                 <p>Vinicius Medeiros</p>
-            </div>
-
-
         </div>
+
+
     </div>
 </div>
-
-
-
 </body>
 </html>

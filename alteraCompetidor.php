@@ -32,7 +32,7 @@
     $num_end = $linha['num_endereco'];
     $email = $linha['email'];
     $telefone = $linha['telefone'];
-    $nome = $linha['nome'];
+    $nome = $linha['nomeAtirador'];
     $rua = $linha['rua'];
     $cep = $linha['cep'];
     $city = $linha['id_cidade'];

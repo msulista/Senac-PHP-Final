@@ -1,3 +1,11 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: marcus.rodrigues
+ * Date: 30/11/2014
+ * Time: 15:27
+ */
+?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="en">
@@ -11,12 +19,6 @@
 <body>
 <div class="container-fluid">
     <?PHP
-    /**
-     * Created by PhpStorm.
-     * User: marcus.rodrigues
-     * Date: 09/11/2014
-     * Time: 10:43
-     */
     require("Topo.html");
     ?>
 
@@ -30,15 +32,13 @@
             <!--conteúdo do corpo-->
             <?PHP
 
-            $nome = $_POST['nome'];
-            $fone = $_POST['fone'];
-            $email = $_POST['email'];
-            $rua = $_POST['rua'];
-            $num = $_POST['numero'];
-            $cep = $_POST['cep'];
-            $city = $_POST['city'];
+            $champ = $_POST['champ'];
+            $competidor = $_POST['competidor'];
 
-            if($nome == '' or $fone == '' or $email == '' or $rua == '' or $num =='' or $cep == '' or $city ==''){
+            echo("Competidor: $competidor - Campeonato: $champ");
+
+
+            if($champ == '' or $competidor == ''){
 
                 print("Favor preencher todos os campos.");
             }else{
@@ -46,10 +46,10 @@
                 require("conecta.inc");
 
                 $link = conecta_bd() or die ("Não é possível conectar-se ao servidor");
-                $resultado = mysqli_query($link, "insert into competidor(nomeAtirador, telefone, email, rua, cep, num_endereco, id_cidade)
-                                    values('$nome', '$fone', '$email', '$rua', '$cep', '$num', '$city')")
-                or die("Não é possível inserir competidor.");
-                echo("<br><h2>Competidor $nome inserido com sucesso.</h2>");
+                $resultado = mysqli_query($link, "insert into inscricao(id_competidor, id_champ)
+                                    values('$competidor', '$champ')")
+                or die("Não é possível realizar inscrição.");
+                echo("<br><h2>Inscrição do competidor realizada com sucesso.</h2>");
             }
             ?>
         </div>

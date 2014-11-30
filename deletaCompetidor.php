@@ -19,24 +19,24 @@
 <div class="container-fluid">
 
     <?PHP
-    require("Topo.html");
+        require("Topo.html");
 
-    $matri = $_GET['matri'];
-    require("conecta.inc");
+        $matri = $_GET['matri'];
+        require("conecta.inc");
 
-    $link = conecta_bd() or die ("Não é possível conectar-se ao servidor");
+        $link = conecta_bd() or die ("Não é possível conectar-se ao servidor");
 
-    $result = mysqli_query($link, "select * from competidor where id_competidor='$matri'")
-                    or die ("Não é possível retornar dados do competidor");
-    $linha = mysqli_fetch_array($result);
-    $id_comp = $linha['id_competidor'];
-    $num_end = $linha['num_endereco'];
-    $email = $linha['email'];
-    $telefone = $linha['telefone'];
-    $nome = $linha['nome'];
-    $rua = $linha['rua'];
-    $cep = $linha['cep'];
-    $city = $linha['id_cidade'];
+        $result = mysqli_query($link, "select * from competidor where id_competidor='$matri'")
+                        or die ("Não é possível retornar dados do competidor");
+        $linha = mysqli_fetch_array($result);
+        $id_comp = $linha['id_competidor'];
+        $num_end = $linha['num_endereco'];
+        $email = $linha['email'];
+        $telefone = $linha['telefone'];
+        $nome = $linha['nomeAtirador'];
+        $rua = $linha['rua'];
+        $cep = $linha['cep'];
+        $city = $linha['id_cidade'];
     ?>
 
     <div class="row-fluid">

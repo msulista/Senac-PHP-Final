@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.css" rel="stylesheet" media="screen">
-    <title>Cadastro de atiradores</title>
+    <title>Cadastro de campeoanto</title>
 </head>
 
 <body>
@@ -16,7 +16,7 @@
 
     $link = conecta_bd() or die ("Não é possível conectar-se ao servidor");
 
-    $resultado = mysqli_query($link, "Select * from competidor order by nomeAtirador;");
+    $resultado = mysqli_query($link, "Select * from campeonato order by nome;");
     ?>
 
     <div class="row-fluid">
@@ -27,10 +27,11 @@
             <!--conteúdo do corpo-->
             <table class="table table-condensed">
                 <tr>
-                    <td>Matrícula</td>
                     <td>Nome</td>
-                    <td>Email</td>
-                    <td>Telefone</td>
+                    <td>Local</td>
+                    <td>Data</td>
+                    <td>Hora</td>
+                    <td>Valor</td>
                     <td>Alterar</td>
                     <td>Deletar</td>
                 </tr>
@@ -39,18 +40,24 @@
 
                 while($linha= mysqli_fetch_array($resultado)){
 
-                    $matri = $linha["id_competidor"];
-                    $nome = $linha["nomeAtirador"];
-                    $email = $linha["email"];
-                    $telefone = $linha["telefone"];
+                    $matri = $linha["id_champ"];
+                    $nome = $linha["nome"];
+                    $data = $linha["data"];
+                    $hora = $linha["hora"];
+                    $local = $linha["local"];
+                    $valor = $linha["valor"];
+
+                    $data = date("d/m/Y", strtotime($data));
+                    $hora = date("h:i:s", strtotime($hora));
                     ?>
                     <tr>
-                        <td><?PHP echo($matri);?></td>
                         <td><?PHP echo($nome);?></td>
-                        <td><?PHP echo($email);?></td>
-                        <td><?PHP echo($telefone);?></td>
-                        <td><?PHP echo("<a href='alteraCompetidor.php?matri=$matri'>Alterar</a>");?></td>
-                        <td><?PHP echo("<a href='deletaCompetidor.php?matri=$matri'>Deletar</a>");?></td>
+                        <td><?PHP echo($local);?></td>
+                        <td><?PHP echo($data);?></td>
+                        <td><?PHP echo($hora);?></td>
+                        <td><?PHP echo($valor);?></td>
+                        <td><?PHP echo("<a href='alteraCampeonato.php?matri=$matri'>Alterar</a>");?></td>
+                        <td><?PHP echo("<a href='deletaCampeonato.php?matri=$matri'>Deletar</a>");?></td>
                     </tr>
                 <?PHP
                 }

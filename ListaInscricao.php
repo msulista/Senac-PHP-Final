@@ -1,3 +1,11 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: marcus.rodrigues
+ * Date: 30/11/2014
+ * Time: 15:47
+ */
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="pt">
 <head>
@@ -16,7 +24,6 @@
 
     $link = conecta_bd() or die ("Não é possível conectar-se ao servidor");
 
-    $resultado = mysqli_query($link, "Select * from competidor order by nomeAtirador;");
     ?>
 
     <div class="row-fluid">
@@ -27,30 +34,28 @@
             <!--conteúdo do corpo-->
             <table class="table table-condensed">
                 <tr>
-                    <td>Matrícula</td>
-                    <td>Nome</td>
-                    <td>Email</td>
-                    <td>Telefone</td>
-                    <td>Alterar</td>
-                    <td>Deletar</td>
+                    <td>Inscrição</td>
+                    <td>Competidor</td>
+                    <td>Campeonato</td>
                 </tr>
 
                 <?PHP
 
+                $resultado = mysqli_query($link, "select id_inscricao, nomeAtirador, nome from inscricao, competidor, campeonato
+                                                    where 	inscricao.id_champ = campeonato.id_champ
+                                                    and		inscricao.id_competidor = competidor.id_competidor
+                                                    group by nomeAtirador, nome;");
+
                 while($linha= mysqli_fetch_array($resultado)){
 
-                    $matri = $linha["id_competidor"];
-                    $nome = $linha["nomeAtirador"];
-                    $email = $linha["email"];
-                    $telefone = $linha["telefone"];
+                    $matri = $linha["id_inscricao"];
+                    $nomeAtirador = $linha["nomeAtirador"];
+                    $nomeChamp = $linha["nome"];
                     ?>
                     <tr>
                         <td><?PHP echo($matri);?></td>
-                        <td><?PHP echo($nome);?></td>
-                        <td><?PHP echo($email);?></td>
-                        <td><?PHP echo($telefone);?></td>
-                        <td><?PHP echo("<a href='alteraCompetidor.php?matri=$matri'>Alterar</a>");?></td>
-                        <td><?PHP echo("<a href='deletaCompetidor.php?matri=$matri'>Deletar</a>");?></td>
+                        <td><?PHP echo($nomeAtirador);?></td>
+                        <td><?PHP echo($nomeChamp);?></td>
                     </tr>
                 <?PHP
                 }

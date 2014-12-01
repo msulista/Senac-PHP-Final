@@ -59,13 +59,13 @@
                         <select name="competidor">
                             <option value=''> </option>
                             <?php
-                            $resultCompetidor = mysqli_query($link, "Select * from competidor order by nome;")
+                            $resultCompetidor = mysqli_query($link, "Select * from competidor order by nomeAtirador;")
                             or die ("Não é possível consular Competidor");
 
                             while($linhaCompetidor = mysqli_fetch_array($resultCompetidor)){
 
                                 $id_competidor = $linhaCompetidor["id_competidor"];
-                                $nomeCompetidor = $linhaCompetidor["nome"];
+                                $nomeCompetidor = $linhaCompetidor["nomeAtirador"];
                                 print("<option value='$id_competidor'> $nomeCompetidor </option>");
                             }
                             ?>

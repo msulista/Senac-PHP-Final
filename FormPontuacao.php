@@ -12,7 +12,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.css" rel="stylesheet" media="screen">
-    <title>Cadastro de pontos</title>
+    <title>Cadastro de pontuação</title>
 </head>
 
 <body>
@@ -32,7 +32,7 @@
         <div class="span10">
             <!--conteúdo do corpo-->
             <h3>Tabela de pontuação</h3>
-            <form action="##" method="post">
+            <form action="CadastraPontuacao.php" method="post">
                 <table class="table table-bordered">
                     <tr>
                         <td>Nome do competidor</td>
@@ -58,31 +58,31 @@
                                 ?>
                             </select>
                         </td>
-                        <td>1<br/><input type="checkbox" name="p11" ></td>
-                        <td>2<br/><input type="checkbox" name="p12" ></td>
-                        <td>3<br/><input type="checkbox" name="p13" ></td>
-                        <td>4<br/><input type="checkbox" name="p14" ></td>
-                        <td>5<br/><input type="checkbox" name="p15" ></td>
-                        <td>1<br/><input type="checkbox" name="p21" ></td>
-                        <td>2<br/><input type="checkbox" name="p22" ></td>
-                        <td>3<br/><input type="checkbox" name="p23" ></td>
-                        <td>4<br/><input type="checkbox" name="p24" ></td>
-                        <td>5<br/><input type="checkbox" name="p25" ></td>
-                        <td>1<br/><input type="checkbox" name="p31" ></td>
-                        <td>2<br/><input type="checkbox" name="p32" ></td>
-                        <td>3<br/><input type="checkbox" name="p33" ></td>
-                        <td>4<br/><input type="checkbox" name="p34" ></td>
-                        <td>5<br/><input type="checkbox" name="p35" ></td>
-                        <td>1<br/><input type="checkbox" name="p41" ></td>
-                        <td>2<br/><input type="checkbox" name="p42" ></td>
-                        <td>3<br/><input type="checkbox" name="p43" ></td>
-                        <td>4<br/><input type="checkbox" name="p44" ></td>
-                        <td>5<br/><input type="checkbox" name="p45" ></td>
-                        <td>1<br/><input type="checkbox" name="p51" ></td>
-                        <td>2<br/><input type="checkbox" name="p52" ></td>
-                        <td>3<br/><input type="checkbox" name="p53" ></td>
-                        <td>4<br/><input type="checkbox" name="p54" ></td>
-                        <td>5<br/><input type="checkbox" name="p55" ></td>
+                        <td>1<br/><input type="checkbox" name="atiraPonto1[]" value="1"></td>
+                        <td>2<br/><input type="checkbox" name="atiraPonto1[]" value="1"></td>
+                        <td>3<br/><input type="checkbox" name="atiraPonto1[]" value="1"></td>
+                        <td>4<br/><input type="checkbox" name="atiraPonto1[]" value="1"></td>
+                        <td>5<br/><input type="checkbox" name="atiraPonto1[]" value="1"></td>
+                        <td>1<br/><input type="checkbox" name="atiraPonto1[]" value="1"></td>
+                        <td>2<br/><input type="checkbox" name="atiraPonto1[]" value="1"></td>
+                        <td>3<br/><input type="checkbox" name="atiraPonto1[]" value="1"></td>
+                        <td>4<br/><input type="checkbox" name="atiraPonto1[]" value="1"></td>
+                        <td>5<br/><input type="checkbox" name="atiraPonto1[]" value="1"></td>
+                        <td>1<br/><input type="checkbox" name="atiraPonto1[]" value="1"></td>
+                        <td>2<br/><input type="checkbox" name="atiraPonto1[]" value="1"></td>
+                        <td>3<br/><input type="checkbox" name="atiraPonto1[]" value="1"></td>
+                        <td>4<br/><input type="checkbox" name="atiraPonto1[]" value="1"></td>
+                        <td>5<br/><input type="checkbox" name="atiraPonto1[]" value="1"></td>
+                        <td>1<br/><input type="checkbox" name="atiraPonto1[]" value="1"></td>
+                        <td>2<br/><input type="checkbox" name="atiraPonto1[]" value="1"></td>
+                        <td>3<br/><input type="checkbox" name="atiraPonto1[]" value="1"></td>
+                        <td>4<br/><input type="checkbox" name="atiraPonto1[]" value="1"></td>
+                        <td>5<br/><input type="checkbox" name="atiraPonto1[]" value="1"></td>
+                        <td>1<br/><input type="checkbox" name="atiraPonto1[]" value="1"></td>
+                        <td>2<br/><input type="checkbox" name="atiraPonto1[]" value="1"></td>
+                        <td>3<br/><input type="checkbox" name="atiraPonto1[]" value="1"></td>
+                        <td>4<br/><input type="checkbox" name="atiraPonto1[]" value="1"></td>
+                        <td>5<br/><input type="checkbox" name="atiraPonto1[]" value="1"></td>
                     </tr>
                     <tr>
                         <td>
@@ -100,31 +100,31 @@
                                 ?>
                             </select>
                         </td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
+                        <td>1<br/><input type="checkbox" name="atiraPonto2[]" value="1"></td>
+                        <td>2<br/><input type="checkbox" name="atiraPonto2[]" value="1"></td>
+                        <td>3<br/><input type="checkbox" name="atiraPonto2[]" value="1"></td>
+                        <td>4<br/><input type="checkbox" name="atiraPonto2[]" value="1"></td>
+                        <td>5<br/><input type="checkbox" name="atiraPonto2[]" value="1"></td>
+                        <td>1<br/><input type="checkbox" name="atiraPonto2[]" value="1"></td>
+                        <td>2<br/><input type="checkbox" name="atiraPonto2[]" value="1"></td>
+                        <td>3<br/><input type="checkbox" name="atiraPonto2[]" value="1"></td>
+                        <td>4<br/><input type="checkbox" name="atiraPonto2[]" value="1"></td>
+                        <td>5<br/><input type="checkbox" name="atiraPonto2[]" value="1"></td>
+                        <td>1<br/><input type="checkbox" name="atiraPonto2[]" value="1"></td>
+                        <td>2<br/><input type="checkbox" name="atiraPonto2[]" value="1"></td>
+                        <td>3<br/><input type="checkbox" name="atiraPonto2[]" value="1"></td>
+                        <td>4<br/><input type="checkbox" name="atiraPonto2[]" value="1"></td>
+                        <td>5<br/><input type="checkbox" name="atiraPonto2[]" value="1"></td>
+                        <td>1<br/><input type="checkbox" name="atiraPonto2[]" value="1"></td>
+                        <td>2<br/><input type="checkbox" name="atiraPonto2[]" value="1"></td>
+                        <td>3<br/><input type="checkbox" name="atiraPonto2[]" value="1"></td>
+                        <td>4<br/><input type="checkbox" name="atiraPonto2[]" value="1"></td>
+                        <td>5<br/><input type="checkbox" name="atiraPonto2[]" value="1"></td>
+                        <td>1<br/><input type="checkbox" name="atiraPonto2[]" value="1"></td>
+                        <td>2<br/><input type="checkbox" name="atiraPonto2[]" value="1"></td>
+                        <td>3<br/><input type="checkbox" name="atiraPonto2[]" value="1"></td>
+                        <td>4<br/><input type="checkbox" name="atiraPonto2[]" value="1"></td>
+                        <td>5<br/><input type="checkbox" name="atiraPonto2[]" value="1"></td>
                     </tr>
                     <tr>
                         <td>
@@ -142,31 +142,31 @@
                                 ?>
                             </select>
                         </td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
+                        <td>1<br/><input type="checkbox" name="atiraPonto3[]" value="1"></td>
+                        <td>2<br/><input type="checkbox" name="atiraPonto3[]" value="1"></td>
+                        <td>3<br/><input type="checkbox" name="atiraPonto3[]" value="1"></td>
+                        <td>4<br/><input type="checkbox" name="atiraPonto3[]" value="1"></td>
+                        <td>5<br/><input type="checkbox" name="atiraPonto3[]" value="1"></td>
+                        <td>1<br/><input type="checkbox" name="atiraPonto3[]" value="1"></td>
+                        <td>2<br/><input type="checkbox" name="atiraPonto3[]" value="1"></td>
+                        <td>3<br/><input type="checkbox" name="atiraPonto3[]" value="1"></td>
+                        <td>4<br/><input type="checkbox" name="atiraPonto3[]" value="1"></td>
+                        <td>5<br/><input type="checkbox" name="atiraPonto3[]" value="1"></td>
+                        <td>1<br/><input type="checkbox" name="atiraPonto3[]" value="1"></td>
+                        <td>2<br/><input type="checkbox" name="atiraPonto3[]" value="1"></td>
+                        <td>3<br/><input type="checkbox" name="atiraPonto3[]" value="1"></td>
+                        <td>4<br/><input type="checkbox" name="atiraPonto3[]" value="1"></td>
+                        <td>5<br/><input type="checkbox" name="atiraPonto3[]" value="1"></td>
+                        <td>1<br/><input type="checkbox" name="atiraPonto3[]" value="1"></td>
+                        <td>2<br/><input type="checkbox" name="atiraPonto3[]" value="1"></td>
+                        <td>3<br/><input type="checkbox" name="atiraPonto3[]" value="1"></td>
+                        <td>4<br/><input type="checkbox" name="atiraPonto3[]" value="1"></td>
+                        <td>5<br/><input type="checkbox" name="atiraPonto3[]" value="1"></td>
+                        <td>1<br/><input type="checkbox" name="atiraPonto3[]" value="1"></td>
+                        <td>2<br/><input type="checkbox" name="atiraPonto3[]" value="1"></td>
+                        <td>3<br/><input type="checkbox" name="atiraPonto3[]" value="1"></td>
+                        <td>4<br/><input type="checkbox" name="atiraPonto3[]" value="1"></td>
+                        <td>5<br/><input type="checkbox" name="atiraPonto3[]" value="1"></td>
                     </tr>
                     <tr>
                         <td>
@@ -184,31 +184,31 @@
                                 ?>
                             </select>
                         </td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
+                        <td>1<br/><input type="checkbox" name="atiraPonto4[]" value="1"></td>
+                        <td>2<br/><input type="checkbox" name="atiraPonto4[]" value="1"></td>
+                        <td>3<br/><input type="checkbox" name="atiraPonto4[]" value="1"></td>
+                        <td>4<br/><input type="checkbox" name="atiraPonto4[]" value="1"></td>
+                        <td>5<br/><input type="checkbox" name="atiraPonto4[]" value="1"></td>
+                        <td>1<br/><input type="checkbox" name="atiraPonto4[]" value="1"></td>
+                        <td>2<br/><input type="checkbox" name="atiraPonto4[]" value="1"></td>
+                        <td>3<br/><input type="checkbox" name="atiraPonto4[]" value="1"></td>
+                        <td>4<br/><input type="checkbox" name="atiraPonto4[]" value="1"></td>
+                        <td>5<br/><input type="checkbox" name="atiraPonto4[]" value="1"></td>
+                        <td>1<br/><input type="checkbox" name="atiraPonto4[]" value="1"></td>
+                        <td>2<br/><input type="checkbox" name="atiraPonto4[]" value="1"></td>
+                        <td>3<br/><input type="checkbox" name="atiraPonto4[]" value="1"></td>
+                        <td>4<br/><input type="checkbox" name="atiraPonto4[]" value="1"></td>
+                        <td>5<br/><input type="checkbox" name="atiraPonto4[]" value="1"></td>
+                        <td>1<br/><input type="checkbox" name="atiraPonto4[]" value="1"></td>
+                        <td>2<br/><input type="checkbox" name="atiraPonto4[]" value="1"></td>
+                        <td>3<br/><input type="checkbox" name="atiraPonto4[]" value="1"></td>
+                        <td>4<br/><input type="checkbox" name="atiraPonto4[]" value="1"></td>
+                        <td>5<br/><input type="checkbox" name="atiraPonto4[]" value="1"></td>
+                        <td>1<br/><input type="checkbox" name="atiraPonto4[]" value="1"></td>
+                        <td>2<br/><input type="checkbox" name="atiraPonto4[]" value="1"></td>
+                        <td>3<br/><input type="checkbox" name="atiraPonto4[]" value="1"></td>
+                        <td>4<br/><input type="checkbox" name="atiraPonto4[]" value="1"></td>
+                        <td>5<br/><input type="checkbox" name="atiraPonto4[]" value="1"></td>
                     </tr>
                     <tr>
                         <td>
@@ -226,33 +226,38 @@
                                 ?>
                             </select>
                         </td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
+                        <td>1<br/><input type="checkbox" name="atiraPonto5[]" value="1"></td>
+                        <td>2<br/><input type="checkbox" name="atiraPonto5[]" value="1"></td>
+                        <td>3<br/><input type="checkbox" name="atiraPonto5[]" value="1"></td>
+                        <td>4<br/><input type="checkbox" name="atiraPonto5[]" value="1"></td>
+                        <td>5<br/><input type="checkbox" name="atiraPonto5[]" value="1"></td>
+                        <td>1<br/><input type="checkbox" name="atiraPonto5[]" value="1"></td>
+                        <td>2<br/><input type="checkbox" name="atiraPonto5[]" value="1"></td>
+                        <td>3<br/><input type="checkbox" name="atiraPonto5[]" value="1"></td>
+                        <td>4<br/><input type="checkbox" name="atiraPonto5[]" value="1"></td>
+                        <td>5<br/><input type="checkbox" name="atiraPonto5[]" value="1"></td>
+                        <td>1<br/><input type="checkbox" name="atiraPonto5[]" value="1"></td>
+                        <td>2<br/><input type="checkbox" name="atiraPonto5[]" value="1"></td>
+                        <td>3<br/><input type="checkbox" name="atiraPonto5[]" value="1"></td>
+                        <td>4<br/><input type="checkbox" name="atiraPonto5[]" value="1"></td>
+                        <td>5<br/><input type="checkbox" name="atiraPonto5[]" value="1"></td>
+                        <td>1<br/><input type="checkbox" name="atiraPonto5[]" value="1"></td>
+                        <td>2<br/><input type="checkbox" name="atiraPonto5[]" value="1"></td>
+                        <td>3<br/><input type="checkbox" name="atiraPonto5[]" value="1"></td>
+                        <td>4<br/><input type="checkbox" name="atiraPonto5[]" value="1"></td>
+                        <td>5<br/><input type="checkbox" name="atiraPonto5[]" value="1"></td>
+                        <td>1<br/><input type="checkbox" name="atiraPonto5[]" value="1"></td>
+                        <td>2<br/><input type="checkbox" name="atiraPonto5[]" value="1"></td>
+                        <td>3<br/><input type="checkbox" name="atiraPonto5[]" value="1"></td>
+                        <td>4<br/><input type="checkbox" name="atiraPonto5[]" value="1"></td>
+                        <td>5<br/><input type="checkbox" name="atiraPonto5[]" value="1"></td>
                     </tr>
                 </table>
+                <div class="control-group">
+                    <div class="controls">
+                        <button type="submit" class="btn">Cadastrar</button>
+                    </div>
+                </div>
             </form>
         </div>
     </div>

@@ -37,6 +37,9 @@
             <!--conteúdo do corpo-->
             <h3>Tabela de pontuação</h3>
             <form action="CadastraPontuacao.php" method="post">
+
+                <input type="hidden" name="id_champ" value="<?PHP echo("$id_champ");?>">
+
                 <table class="table table-bordered">
                     <tr>
                         <td>Nome do competidor</td>
@@ -49,7 +52,7 @@
                     <tr>
                         <td>
                             <select name="atirador1">
-                                <option value='000'>Escolha um competidor</option>
+                                <option value=''>Escolha um competidor</option>
                                 <?php
                                 $result1 = mysqli_query($link, "select    * from competidor, inscricao
                                                                             where 	competidor.id_competidor = inscricao.id_competidor
@@ -93,7 +96,7 @@
                     <tr>
                         <td>
                             <select name="atirador1">
-                                <option value='000'>Escolha um competidor</option>
+                                <option value=''>Escolha um competidor</option>
                                 <?php
                                 $result1 = mysqli_query($link, "select    * from competidor, inscricao
                                                                             where 	competidor.id_competidor = inscricao.id_competidor
@@ -137,7 +140,7 @@
                     <tr>
                         <td>
                             <select name="atirador1">
-                                <option value='000'>Escolha um competidor</option>
+                                <option value=''>Escolha um competidor</option>
                                 <?php
                                 $result1 = mysqli_query($link, "select    * from competidor, inscricao
                                                                             where 	competidor.id_competidor = inscricao.id_competidor
@@ -181,7 +184,7 @@
                     <tr>
                         <td>
                             <select name="atirador1">
-                                <option value='000'>Escolha um competidor</option>
+                                <option value=''>Escolha um competidor</option>
                                 <?php
                                 $result1 = mysqli_query($link, "select    * from competidor, inscricao
                                                                             where 	competidor.id_competidor = inscricao.id_competidor
@@ -225,7 +228,7 @@
                     <tr>
                         <td>
                             <select name="atirador1">
-                                <option value='000'>Escolha um competidor</option>
+                                <option value=''>Escolha um competidor</option>
                                 <?php
                                 $result1 = mysqli_query($link, "select    * from competidor, inscricao
                                                                             where 	competidor.id_competidor = inscricao.id_competidor
@@ -269,7 +272,6 @@
                 </table>
                 <div class="control-group">
                     <div class="controls">
-                        <input type="hidden" name="id_champ" value="id_champ">
                         <button type="submit" class="btn">Cadastrar</button>
                     </div>
                 </div>

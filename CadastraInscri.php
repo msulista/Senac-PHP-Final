@@ -35,9 +35,6 @@
             $champ = $_POST['champ'];
             $competidor = $_POST['competidor'];
 
-            echo("Competidor: $competidor - Campeonato: $champ");
-
-
             if($champ == '' or $competidor == ''){
 
                 print("Favor preencher todos os campos.");

@@ -39,7 +39,8 @@
             $somaPontoAtirador4 = 0;
             $somaPontoAtirador5 = 0;
 
-            if(isset($_POST["atirador1"])) {
+
+            if(isset($_POST["atirador2"])) {
                 $atirador1 = $_POST['atirador1'];
             }
             if(isset($_POST["atirador2"])) {
@@ -56,7 +57,6 @@
             }
 
             $id_champ = $_POST['id_champ'];
-            echo(" $id_champ");
 
             require("conecta.inc");
 
@@ -72,7 +72,8 @@
                         }
                         $resultado1 = mysqli_query($link, "insert into pontuacao(id_competidor, id_champ, pontos)
                                                            values('$atirador1','$id_champ','$somaPontoAtirador1')")
-                        or die("Não é possível inserir pontuação do competidor 1.");
+                        or die("Não é possível inserir pontuação do competidor 1. $atirador1, $id_champ, $somaPontoAtirador1");
+
                     }
                     if(isset($_POST["atiraPonto2"])){
 
@@ -82,7 +83,7 @@
 
                         }
                         $resultado2 = mysqli_query($link, "insert into pontuacao(id_competidor, id_champ, pontos)
-                                                           values('$atirador1','$id_champ','$somaPontoAtirador1')")
+                                                           values('$atirador2','$id_champ','$somaPontoAtirador2')")
                         or die("Não é possível inserir pontuação do competidor 2.");
                     }
                     if(isset($_POST["atiraPonto3"])){
@@ -93,7 +94,7 @@
 
                         }
                         $resultado1 = mysqli_query($link, "insert into pontuacao(id_competidor, id_champ, pontos)
-                                                           values('$atirador1','$id_champ','$somaPontoAtirador1')")
+                                                           values('$atirador3','$id_champ','$somaPontoAtirador3')")
                         or die("Não é possível inserir pontuação do competidor 2.");
                     }
                     if(isset($_POST["atiraPonto4"])){
@@ -104,7 +105,7 @@
 
                         }
                         $resultado1 = mysqli_query($link, "insert into pontuacao(id_competidor, id_champ, pontos)
-                                                           values('$atirador1','$id_champ','$somaPontoAtirador1')")
+                                                           values('$atirador4','$id_champ','$somaPontoAtirador4')")
                         or die("Não é possível inserir pontuação do competidor.");
                     }
                     if(isset($_POST["atiraPonto5"])){
@@ -115,7 +116,7 @@
 
                         }
                         $resultado1 = mysqli_query($link, "insert into pontuacao(id_competidor, id_champ, pontos)
-                                                           values('$atirador1','$id_champ','$somaPontoAtirador1')")
+                                                           values('$atirador5','$id_champ','$somaPontoAtirador5')")
                         or die("Não é possível inserir pontuação do competidor.");
                     }
 

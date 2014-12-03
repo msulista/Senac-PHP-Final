@@ -21,10 +21,11 @@
             <h3>Trabalho de Programação para Internet I</h3>
             </br>
 
-            <p>
+            <p class="lead">
                 Este sistema trata de um um cadastro de competidores, competições e gerência a pontuação de compeonatos
-                da <a href="http://portal.fgct.com.br/">FGCT</a> (Federação Gaúcha de Caça e Tiro)<br>
-                por competidores, assim podemos conferir a tabela com a pontuação de cada competidor.
+                da <a href="http://portal.fgct.com.br/">FGCT</a> (Federação Gaúcha de Caça e Tiro) por competidores, assim podemos conferir a tabela com a pontuação <br>
+                de cada competidor por campeonato e o ranking geral.
+                Para facilitar optamos por ter apenas uma modalidade de competição, que é o tiro ao prato com espingarda calibre 12 estilo Fossa.
             </p>
                 <h3>Integrantes:</h3>
                 <p>Abilio</p>

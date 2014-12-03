@@ -95,18 +95,18 @@
                     </tr>
                     <tr>
                         <td>
-                            <select name="atirador1">
+                            <select name="atirador2">
                                 <option value=''>Escolha um competidor</option>
                                 <?php
-                                $result1 = mysqli_query($link, "select    * from competidor, inscricao
+                                $result2 = mysqli_query($link, "select    * from competidor, inscricao
                                                                             where 	competidor.id_competidor = inscricao.id_competidor
                                                                             and		inscricao.id_champ = '$id_champ';")
                                 or die ("Não é possível consular competidor");
-                                while($linha = mysqli_fetch_array($result1)){
+                                while($linha2 = mysqli_fetch_array($result2)){
 
-                                    $id_competidor = $linha["id_competidor"];
-                                    $nome = $linha["nomeAtirador"];
-                                    print("<option value='$id_competidor'> $nome </option>");
+                                    $id_competidor2 = $linha2["id_competidor"];
+                                    $nome2 = $linha2["nomeAtirador"];
+                                    print("<option value='$id_competidor2'> $nome2 </option>");
                                 }
                                 ?>
                             </select>
@@ -139,18 +139,18 @@
                     </tr>
                     <tr>
                         <td>
-                            <select name="atirador1">
+                            <select name="atirador3">
                                 <option value=''>Escolha um competidor</option>
                                 <?php
-                                $result1 = mysqli_query($link, "select    * from competidor, inscricao
+                                $result3 = mysqli_query($link, "select    * from competidor, inscricao
                                                                             where 	competidor.id_competidor = inscricao.id_competidor
                                                                             and		inscricao.id_champ = '$id_champ';")
                                 or die ("Não é possível consular competidor");
-                                while($linha = mysqli_fetch_array($result1)){
+                                while($linha3 = mysqli_fetch_array($result3)){
 
-                                    $id_competidor = $linha["id_competidor"];
-                                    $nome = $linha["nomeAtirador"];
-                                    print("<option value='$id_competidor'> $nome </option>");
+                                    $id_competidor3 = $linha3["id_competidor"];
+                                    $nome3 = $linha3["nomeAtirador"];
+                                    print("<option value='$id_competidor3'> $nome3 </option>");
                                 }
                                 ?>
                             </select>
@@ -183,18 +183,18 @@
                     </tr>
                     <tr>
                         <td>
-                            <select name="atirador1">
+                            <select name="atirador4">
                                 <option value=''>Escolha um competidor</option>
                                 <?php
-                                $result1 = mysqli_query($link, "select    * from competidor, inscricao
+                                $result4 = mysqli_query($link, "select    * from competidor, inscricao
                                                                             where 	competidor.id_competidor = inscricao.id_competidor
                                                                             and		inscricao.id_champ = '$id_champ';")
                                 or die ("Não é possível consular competidor");
-                                while($linha = mysqli_fetch_array($result1)){
+                                while($linha4 = mysqli_fetch_array($result4)){
 
-                                    $id_competidor = $linha["id_competidor"];
-                                    $nome = $linha["nomeAtirador"];
-                                    print("<option value='$id_competidor'> $nome </option>");
+                                    $id_competidor4 = $linha4["id_competidor"];
+                                    $nome4 = $linha4["nomeAtirador"];
+                                    print("<option value='$id_competidor4'> $nome4 </option>");
                                 }
                                 ?>
                             </select>
@@ -227,18 +227,18 @@
                     </tr>
                     <tr>
                         <td>
-                            <select name="atirador1">
+                            <select name="atirador5">
                                 <option value=''>Escolha um competidor</option>
                                 <?php
-                                $result1 = mysqli_query($link, "select    * from competidor, inscricao
+                                $result5 = mysqli_query($link, "select    * from competidor, inscricao
                                                                             where 	competidor.id_competidor = inscricao.id_competidor
                                                                             and		inscricao.id_champ = '$id_champ';")
                                 or die ("Não é possível consular competidor");
-                                while($linha = mysqli_fetch_array($result1)){
+                                while($linha5 = mysqli_fetch_array($result5)){
 
-                                    $id_competidor = $linha["id_competidor"];
-                                    $nome = $linha["nomeAtirador"];
-                                    print("<option value='$id_competidor'> $nome </option>");
+                                    $id_competidor5 = $linha5["id_competidor"];
+                                    $nome5 = $linha5["nomeAtirador"];
+                                    print("<option value='$id_competidor5'> $nome5 </option>");
                                 }
                                 ?>
                             </select>

@@ -21,6 +21,10 @@
             <h3>Trabalho de Programação para Internet I</h3>
             </br>
 
+            <img src="img/download.jpg" class="img-rounded">
+            </br>
+            </br>
+
             <p class="lead">
                 Este sistema trata de um um cadastro de competidores, competições e gerência a pontuação de compeonatos
                 da <a href="http://portal.fgct.com.br/">FGCT</a> (Federação Gaúcha de Caça e Tiro) por competidores, assim podemos conferir a tabela com a pontuação <br>
@@ -31,12 +35,14 @@
                 O Código esta disponível no Github: <a href="https://github.com/msulista/Senac-PHP-Final">msulista</a>
             </p>
                 <h3>Integrantes:</h3>
-                <p>Abilio</p>
-                <p>Marcus Rodrigues</p>
-                <p>Vinicius Medeiros</p>
+                <h4>Abilio Fernandes</h4>
+                <h4>Marcus Rodrigues</h4>
+                <h4>Vinicius Medeiros</h4>
+
+                <h3>Modelo ER:</h3>
+
+                <img src="img/ERFinal.jpg" class="img-rounded">
         </div>
-
-
     </div>
 </div>
 </body>

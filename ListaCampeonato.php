@@ -25,6 +25,7 @@
         </div>
         <div class="span10">
             <!--conteúdo do corpo-->
+            <br/>
             <table class="table table-condensed">
                 <tr>
                     <td>Nome</td>

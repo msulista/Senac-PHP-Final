@@ -25,72 +25,75 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ListaCompetidor.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ListaCompetidor.php">
+      <file leaf-file-name="RankingCompeticao.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RankingCompeticao.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384" vertical-offset="510" max-vertical-offset="1156">
-              <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+            <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="1207">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="65" selection-end-column="7" />
+              <folding>
+                <element signature="e#6#98#0#PHP" expanded="true" />
+                <marker date="1417656388848" expanded="true" signature="1350:1388" placeholder="Select * fro..campeonato..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Topo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Topo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="459">
+              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListaCampeonato.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ListaCampeonato.php">
+      <file leaf-file-name="ListaRankingCompeticao.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ListaRankingCompeticao.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.153846" vertical-offset="439" max-vertical-offset="1275">
-              <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-              <folding>
-                <marker date="1417653081822" expanded="true" signature="587:625" placeholder="Select * fro..campeonato..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="alteraCampeonato.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alteraCampeonato.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.0" vertical-offset="490" max-vertical-offset="1530">
-              <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
-              <folding>
-                <marker date="1417653477525" expanded="true" signature="623:671" placeholder="select * fro..campeonato..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfirmAlterCampeonato.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ConfirmAlterCampeonato.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6729776" vertical-offset="102" max-vertical-offset="952">
-              <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
-              <folding>
-                <marker date="1417653570864" expanded="true" signature="1068:1282" placeholder="update campe..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ranking.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ranking.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="935">
-              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+            <state vertical-scroll-proportion="-13.076923" vertical-offset="714" max-vertical-offset="1394">
+              <caret line="62" column="47" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
               <folding>
                 <element signature="e#6#98#0#PHP" expanded="true" />
+                <marker date="1417657030535" expanded="true" signature="723:1297" placeholder="select nomeA..pontuacao..." />
+                <marker date="1417657030535" expanded="true" signature="723:1302" placeholder="select nomeA..pontuacao..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListaRankingGeral.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ListaRankingGeral.php">
+      <file leaf-file-name="PaginaCostrucao.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PaginaCostrucao.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.038462" vertical-offset="490" max-vertical-offset="1309">
-              <caret line="61" column="57" selection-start-line="61" selection-start-column="57" selection-end-line="61" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.64888126" vertical-offset="252" max-vertical-offset="833">
+              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
               <folding>
                 <element signature="e#6#98#0#PHP" expanded="true" />
-                <marker date="1417568355526" expanded="true" signature="689:1261" placeholder="select nomeA..pontuacao..." />
+                <marker date="1417657475620" expanded="true" signature="482:520" placeholder="Select * fro..campeonato..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListaInscricao.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ListaInscricao.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.807693" vertical-offset="442" max-vertical-offset="1156">
+              <caret line="46" column="75" selection-start-line="46" selection-start-column="75" selection-end-line="46" selection-end-column="75" />
+              <folding>
+                <marker date="1417372623070" expanded="true" signature="1121:1487" placeholder="select id_in..inscricao..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListaCompetidor.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ListaCompetidor.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.730769" vertical-offset="102" max-vertical-offset="1173">
+              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+              <folding>
+                <marker date="1417653728555" expanded="true" signature="587:633" placeholder="Select * fro..competidor..." />
               </folding>
             </state>
           </provider>
@@ -120,21 +123,25 @@
         <option value="$PROJECT_DIR$/cadastraAtirador.php" />
         <option value="$PROJECT_DIR$/deletaCompetidor.php" />
         <option value="$PROJECT_DIR$/alteraCompetidor.php" />
-        <option value="$PROJECT_DIR$/ListaCompetidor.php" />
-        <option value="$PROJECT_DIR$/FormInscricao.php" />
         <option value="$PROJECT_DIR$/EscolheCampeonato.php" />
-        <option value="$PROJECT_DIR$/Topo.html" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/EscolheRanking.php" />
-        <option value="$PROJECT_DIR$/Ranking.php" />
         <option value="$PROJECT_DIR$/CadastraInscri.php" />
         <option value="$PROJECT_DIR$/FormPontuacao.php" />
         <option value="$PROJECT_DIR$/CadastraPontuacao.php" />
         <option value="$PROJECT_DIR$/ListaRankingGeral.php" />
         <option value="$PROJECT_DIR$/deletaCampeonato.php" />
-        <option value="$PROJECT_DIR$/ListaCampeonato.php" />
         <option value="$PROJECT_DIR$/alteraCampeonato.php" />
         <option value="$PROJECT_DIR$/ConfirmAlterCampeonato.php" />
+        <option value="$PROJECT_DIR$/ListaCompetidor.php" />
+        <option value="$PROJECT_DIR$/ListaCampeonato.php" />
+        <option value="$PROJECT_DIR$/Topo.html" />
+        <option value="$PROJECT_DIR$/FormInscricao.php" />
+        <option value="$PROJECT_DIR$/RankingCompeticao.php" />
+        <option value="$PROJECT_DIR$/ListaRankingCompeticao.php" />
+        <option value="$PROJECT_DIR$/PaginaCostrução.php" />
+        <option value="$PROJECT_DIR$/Ranking.php" />
+        <option value="$PROJECT_DIR$/PaginaCostrucao.php" />
       </list>
     </option>
   </component>
@@ -290,25 +297,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Topo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="425">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FormAtirador.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1700">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cadastraAtirador.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1105">
           <caret line="45" column="84" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="84" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -345,6 +338,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -381,6 +375,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -417,6 +412,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="816">
           <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="23" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -453,6 +449,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="816">
           <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="23" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -477,13 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ListaInscricao.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5025818" vertical-offset="490" max-vertical-offset="1241">
-          <caret line="46" column="75" selection-start-line="46" selection-start-column="75" selection-end-line="46" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/alteraCompetidor.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="19.153847" vertical-offset="1076" max-vertical-offset="2227">
@@ -495,6 +485,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1139">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -502,13 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1190">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FormInscricao.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.269231" vertical-offset="107" max-vertical-offset="1530">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="24" selection-end-column="75" />
         </state>
       </provider>
     </entry>
@@ -541,31 +525,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ranking.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="935">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-          <folding>
-            <element signature="e#6#98#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CadastraInscri.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40103272" vertical-offset="294" max-vertical-offset="1003">
           <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListaRankingGeral.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.038462" vertical-offset="490" max-vertical-offset="1309">
-          <caret line="61" column="57" selection-start-line="61" selection-start-column="57" selection-end-line="61" selection-end-column="57" />
-          <folding>
-            <element signature="e#6#98#0#PHP" expanded="true" />
-            <marker date="1417568355526" expanded="true" signature="689:1261" placeholder="select nomeA..pontuacao..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -574,7 +537,7 @@
         <state vertical-scroll-proportion="0.47332186" vertical-offset="2241" max-vertical-offset="4896">
           <caret line="148" column="75" selection-start-line="148" selection-start-column="75" selection-end-line="148" selection-end-column="75" />
           <folding>
-            <element signature="e#6#98#0#PHP" expanded="true" />
+            <element signature="e#6#98#0#PHP" expanded="false" />
             <marker date="1417567290665" expanded="true" signature="-1:-1" placeholder="select * fro..competidor..." />
             <marker date="1417567290665" expanded="true" signature="-1:-1" placeholder="select * fro..competidor..." />
             <marker date="1417567290665" expanded="true" signature="-1:-1" placeholder="select * fro..competidor..." />
@@ -629,14 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Topo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51792115" vertical-offset="0" max-vertical-offset="558">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deletaCompetidor.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.70071685" vertical-offset="204" max-vertical-offset="1989">
@@ -648,30 +603,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ListaCompetidor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384" vertical-offset="510" max-vertical-offset="1156">
-          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ConfirmDelCampeonato.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.28743544" vertical-offset="167" max-vertical-offset="748">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1417360141000" expanded="true" signature="-1:-1" placeholder="delete from ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListaCampeonato.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.153846" vertical-offset="439" max-vertical-offset="1275">
-          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-          <folding>
-            <marker date="1417653081822" expanded="true" signature="587:625" placeholder="Select * fro..campeonato..." />
           </folding>
         </state>
       </provider>
@@ -686,12 +623,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ListaCampeonato.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1222031" vertical-offset="388" max-vertical-offset="1292">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding>
+            <marker date="1417653748316" expanded="true" signature="-1:-1" placeholder="Select * fro..campeonato..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/alteraCampeonato.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.0" vertical-offset="490" max-vertical-offset="1530">
+        <state vertical-scroll-proportion="1.0292599" vertical-offset="490" max-vertical-offset="1530">
           <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
           <folding>
-            <marker date="1417653477525" expanded="true" signature="623:671" placeholder="select * fro..campeonato..." />
+            <marker date="1417653477525" expanded="true" signature="-1:-1" placeholder="select * fro..campeonato..." />
           </folding>
         </state>
       </provider>
@@ -701,7 +648,90 @@
         <state vertical-scroll-proportion="0.6729776" vertical-offset="102" max-vertical-offset="952">
           <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
           <folding>
-            <marker date="1417653570864" expanded="true" signature="1068:1282" placeholder="update campe..." />
+            <marker date="1417653570864" expanded="true" signature="-1:-1" placeholder="update campe..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Topo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="459">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ListaCompetidor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769" vertical-offset="102" max-vertical-offset="1173">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding>
+            <marker date="1417653728555" expanded="true" signature="587:633" placeholder="Select * fro..competidor..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ListaInscricao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693" vertical-offset="442" max-vertical-offset="1156">
+          <caret line="46" column="75" selection-start-line="46" selection-start-column="75" selection-end-line="46" selection-end-column="75" />
+          <folding>
+            <marker date="1417372623070" expanded="true" signature="1121:1487" placeholder="select id_in..inscricao..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FormInscricao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11703958" vertical-offset="0" max-vertical-offset="1530">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <marker date="1417470798122" expanded="true" signature="-1:-1" placeholder="Select * fro..campeonato..." />
+            <marker date="1417470798122" expanded="true" signature="-1:-1" placeholder="Select * fro..competidor..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RankingCompeticao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="1207">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="65" selection-end-column="7" />
+          <folding>
+            <element signature="e#6#98#0#PHP" expanded="true" />
+            <marker date="1417656388848" expanded="true" signature="1350:1388" placeholder="Select * fro..campeonato..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ranking.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55593807" vertical-offset="255" max-vertical-offset="935">
+          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+          <folding>
+            <element signature="e#6#98#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ListaRankingCompeticao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.076923" vertical-offset="714" max-vertical-offset="1394">
+          <caret line="62" column="47" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
+          <folding>
+            <element signature="e#6#98#0#PHP" expanded="true" />
+            <marker date="1417657030535" expanded="true" signature="723:1297" placeholder="select nomeA..pontuacao..." />
+            <marker date="1417657030535" expanded="true" signature="723:1302" placeholder="select nomeA..pontuacao..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PaginaCostrucao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64888126" vertical-offset="252" max-vertical-offset="833">
+          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+          <folding>
+            <element signature="e#6#98#0#PHP" expanded="true" />
+            <marker date="1417657475620" expanded="true" signature="482:520" placeholder="Select * fro..campeonato..." />
           </folding>
         </state>
       </provider>

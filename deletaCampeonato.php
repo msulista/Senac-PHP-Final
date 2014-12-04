@@ -16,11 +16,12 @@
     require("Topo.html");
 
     $matri = $_GET['matri'];
+
     require("conecta.inc");
 
     $link = conecta_bd() or die ("Não é possível conectar-se ao servidor");
 
-    $result = mysqli_query($link, "select * from campeoanto where id_champ='$matri'")
+    $result = mysqli_query($link, "select * from campeonato where id_champ='$matri'")
                     or die ("Não é possível retornar dados do campeoanto");
     $linha = mysqli_fetch_array($result);
     $id_champ = $linha['id_champ'];
@@ -71,7 +72,7 @@
                 </div>
             <div class="control-group">
                 <div class="controls">
-                    <input type="hidden" name="cod_del" value="<?PHP print($matri)?>">
+                    <input type="hidden" name="cod_del" value="<?PHP print($id_champ)?>">
                     <button type="submit" class="btn">Deletar</button>
                 </div>
             </div>

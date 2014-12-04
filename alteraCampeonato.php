@@ -28,6 +28,7 @@
     $local = $linha['local'];
     $nome = $linha['nome'];
     $valor = $linha['valor'];
+    $data = date("dmY", strtotime($data));
     ?>
 
     <div class="row-fluid">
@@ -49,7 +50,7 @@
                 <div class="control-group">
                     <label class="control-label" for="inputData">Data:</label>
                     <div class="controls">
-                        <input type="Date" name="data" id="inputData" value="<?PHP echo($Data);?>" required="required">
+                        <input type="date" name="data" id="inputData" value="<?PHP echo($data);?>" required="required">
                     </div>
                 </div>
                 <div class="control-group">
@@ -61,7 +62,7 @@
                 <div class="control-group">
                     <label class="control-label" for="inputLocal">Local:</label>
                     <div class="controls">
-                        <input type="text" name="Local" id="inputLocal" value="<?PHP echo($local);?>" required="required">
+                        <input type="text" name="local" id="inputLocal" value="<?PHP echo($local);?>" required="required">
                     </div>
                 </div>
                 <div class="control-group">

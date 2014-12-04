@@ -21,15 +21,15 @@
 
             if($nome_alt == '' or $data_alt == '' or $hora_alt == '' or $local_alt == '' or $valor_alt ==''){
 
-                print("Favor preencher todos os campos.");
+                print("<h2>Favor preencher todos os campos.</h2>");
             }else{
 
                 require("conecta.inc");
 
                 $link = conecta_bd() or die ("Não é possível conectar-se ao servidor");
-                $resultado = mysqli_query($link, "update campeoanto set nome='$nome_alt', data='$data_alt', hora='$hora_alt', local='$local_alt',
-                                          valor='$valor_alt' WHERE id_champ = '$cod_alt'")
-                or die("Não é possível inserir competidor.");
+                $resultado = mysqli_query($link, "update campeonato set nome='$nome_alt', data='$data_alt', hora='$hora_alt', local='$local_alt',
+                                                                        valor='$valor_alt' WHERE id_champ = '$cod_alt'")
+                or die("Não é possível alterar campeonato.");
             }
             ?>
 

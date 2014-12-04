@@ -27,6 +27,9 @@
                 de cada competidor por campeonato e o ranking geral.
                 Para facilitar optamos por ter apenas uma modalidade de competição, que é o tiro ao prato com espingarda calibre 12 estilo Fossa.
             </p>
+            <p class="lead">
+                O Código esta disponível no Github: <a href="https://github.com/msulista/Senac-PHP-Final">msulista</a>
+            </p>
                 <h3>Integrantes:</h3>
                 <p>Abilio</p>
                 <p>Marcus Rodrigues</p>

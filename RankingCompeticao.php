@@ -32,7 +32,7 @@
         <div class="span10">
             <!--conteúdo do corpo-->
             <form class="form-horizontal" action="ListaRankingCompeticao.php" method="post">
-                <h3>Inscrição:</h3>
+                <h3>Ranking por competição:</h3>
 
                 <div class="control-group">
                     <label class="control-label" for="inputCity">Campeonato</label>
@@ -55,7 +55,7 @@
                 </div>
                 <div class="control-group">
                     <div class="controls">
-                        <button type="submit" class="btn">Cadastrar</button>
+                        <button type="submit" class="btn">Seleciona</button>
                     </div>
                 </div>
             </form>

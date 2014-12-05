@@ -32,6 +32,7 @@
         </div>
         <div class="span10">
             <!--conteúdo do corpo-->
+            <h3>Lista Inscrições:</h3>
             <table class="table table-condensed">
                 <tr>
                     <td>Inscrição</td>

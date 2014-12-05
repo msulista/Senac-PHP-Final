@@ -7,7 +7,7 @@
  */
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="pt">
+<html lang="pt" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,6 +41,8 @@
         </div>
         <div class="span10">
             <!--conteúdo do corpo-->
+            </br>
+            <h3>Lista Ranking:</h3>
             <table class="table table-condensed">
                 <tr>
                     <td>Posição</td>

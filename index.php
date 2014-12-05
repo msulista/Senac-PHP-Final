@@ -32,6 +32,11 @@
                 Para facilitar optamos por ter apenas uma modalidade de competição, que é o tiro ao prato com espingarda calibre 12 estilo Fossa.
             </p>
             <p class="lead">
+                O sistema de pontuação consiste em dividir 25 disparos em 5 tiros por baia, onde o competidor ira realizar seus disparos nos pratos e a cada acerto
+                será contabilizado o ponto, podendo assim o mesário marcar no sistema o disparo positivo. O competidor ao percorrer as 5 baias terá completado sua
+                participação no campeonato.
+            </p>
+            <p class="lead">
                 O Código esta disponível no Github: <a href="https://github.com/msulista/Senac-PHP-Final">msulista</a>
             </p>
                 <h3>Integrantes:</h3>

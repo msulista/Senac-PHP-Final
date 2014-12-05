@@ -30,6 +30,7 @@
             $local = $_POST['local'];
             $valor = $_POST['valor'];
 
+
             if($nome == '' or $data == '' or $hora == '' or $local == '' or $valor ==''){
                 print("Favor preencher todos os campos.");
             }else{

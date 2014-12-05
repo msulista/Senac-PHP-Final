@@ -26,6 +26,7 @@
         <div class="span10">
             <!--conteúdo do corpo-->
             <br/>
+            <h3>Lista Competidores:</h3>
             <table class="table table-condensed">
                 <tr>
                     <td>Matrícula</td>

@@ -26,13 +26,14 @@
         <div class="span10">
             <!--conteúdo do corpo-->
             <br/>
+            <h3>Lista Compeonato:</h3>
             <table class="table table-condensed">
                 <tr>
                     <td>Nome</td>
                     <td>Local</td>
                     <td>Data</td>
                     <td>Hora</td>
-                    <td>Valor</td>
+                    <td>Valor R$</td>
                     <td>Alterar</td>
                     <td>Deletar</td>
                 </tr>
@@ -56,7 +57,7 @@
                         <td><?PHP echo($local);?></td>
                         <td><?PHP echo($data);?></td>
                         <td><?PHP echo($hora);?></td>
-                        <td><?PHP echo($valor);?></td>
+                        <td><?PHP echo("$valor,00");?></td>
                         <td><?PHP echo("<a href='alteraCampeonato.php?matri=$matri'>Alterar</a>");?></td>
                         <td><?PHP echo("<a href='deletaCampeonato.php?matri=$matri'>Deletar</a>");?></td>
                     </tr>
